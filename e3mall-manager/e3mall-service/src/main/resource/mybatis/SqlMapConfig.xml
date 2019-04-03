@@ -5,5 +5,13 @@
 <configuration>
 
 
+    <!-- 配置拦截器，可以在sql语句执行之前拦截并改写sql -->
+    <plugins>
+        <!-- 填写拦截器 -->
+        <plugin interceptor="com.github.pagehelper.PageHelper">
+            <property name="dialect" value="mysql"></property>
+        </plugin>
+    </plugins>
+
 
 </configuration>
