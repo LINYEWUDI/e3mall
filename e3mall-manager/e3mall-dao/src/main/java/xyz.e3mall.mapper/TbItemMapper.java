@@ -10,7 +10,7 @@ public interface TbItemMapper {
 
     int deleteByExample(TbItemExample example);
 
-    int deleteByPrimaryKey(Long id);
+    int deleteByPrimaryKey(Integer id);
 
     int insert(TbItem record);
 
