@@ -2,6 +2,10 @@ package xyz.e3mall.domain;
 
 import java.io.Serializable;
 
+/**
+ * 返回为目商品录json
+ */
+
 public class EasyUiItemCatVo implements Serializable {
 
     long id;

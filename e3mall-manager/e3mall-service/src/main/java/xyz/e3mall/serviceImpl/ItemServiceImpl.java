@@ -2,14 +2,13 @@ package xyz.e3mall.serviceImpl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import xyz.e3mall.ItemService;
 import xyz.e3mall.domain.E3Result;
 import xyz.e3mall.mapper.TbItemDescMapper;
 import xyz.e3mall.mapper.TbItemMapper;
-import xyz.e3mall.pojo.EasyUiPojo;
+import xyz.e3mall.domain.EasyUiPojo;
 import xyz.e3mall.pojo.TbItem;
 import xyz.e3mall.pojo.TbItemDesc;
 import xyz.e3mall.pojo.TbItemExample;

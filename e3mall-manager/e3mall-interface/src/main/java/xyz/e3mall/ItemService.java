@@ -1,6 +1,6 @@
 package xyz.e3mall;
 import xyz.e3mall.domain.E3Result;
-import xyz.e3mall.pojo.EasyUiPojo;
+import xyz.e3mall.domain.EasyUiPojo;
 import xyz.e3mall.pojo.TbItem;
 
 import java.util.Map;
