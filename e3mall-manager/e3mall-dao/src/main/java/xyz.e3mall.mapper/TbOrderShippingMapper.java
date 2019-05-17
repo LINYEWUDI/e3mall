@@ -2,8 +2,8 @@ package xyz.e3mall.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import xyz.e3mall.pojo.TbOrderShipping;
-import xyz.e3mall.pojo.TbOrderShippingExample;
+import xyz.e3mall.manager.pojo.TbOrderShipping;
+import xyz.e3mall.manager.pojo.TbOrderShippingExample;
 
 public interface TbOrderShippingMapper {
     int countByExample(TbOrderShippingExample example);

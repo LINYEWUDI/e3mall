@@ -2,8 +2,8 @@ package xyz.e3mall.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import xyz.e3mall.pojo.TbItemParamItem;
-import xyz.e3mall.pojo.TbItemParamItemExample;
+import xyz.e3mall.manager.pojo.TbItemParamItem;
+import xyz.e3mall.manager.pojo.TbItemParamItemExample;
 
 public interface TbItemParamItemMapper {
     int countByExample(TbItemParamItemExample example);

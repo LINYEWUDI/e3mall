@@ -1,10 +1,11 @@
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import xyz.e3mall.mapper.TbItemMapper;
-import xyz.e3mall.pojo.TbItem;
-import xyz.e3mall.pojo.TbItemExample;
+import xyz.e3mall.manager.pojo.TbItem;
+import xyz.e3mall.manager.pojo.TbItemExample;
 
 import java.util.List;
 
@@ -13,7 +14,7 @@ public class PageTest {
     @Test
     public void pageTest(){
         //创建spring容器
-        ClassPathXmlApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-dao.xml");
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-dao.xml");
         //拿到mapper对象
         TbItemMapper tbItemMapper = applicationContext.getBean(TbItemMapper.class);
         //从第几页开始，每页展示多少个

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../e3-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-cart/e3mall-cart-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-content/e3mall-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-item-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-manager/e3mall-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-order-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-order/e3mall-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-sso-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-sso/e3-sso-service" />
+    <file type="web" url="file://$PROJECT_DIR$/../e3mall-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/../fastdfs_client/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-content/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3mall-order-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

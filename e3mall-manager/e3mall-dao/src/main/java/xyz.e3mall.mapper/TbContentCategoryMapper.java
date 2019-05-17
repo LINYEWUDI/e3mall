@@ -2,8 +2,8 @@ package xyz.e3mall.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import xyz.e3mall.pojo.TbContentCategory;
-import xyz.e3mall.pojo.TbContentCategoryExample;
+import xyz.e3mall.manager.pojo.TbContentCategory;
+import xyz.e3mall.manager.pojo.TbContentCategoryExample;
 
 public interface TbContentCategoryMapper {
     int countByExample(TbContentCategoryExample example);

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="e3-portal-web" />
+        <module name="e3-sso-interface" />
+        <module name="e3-sso-Service" />
+        <module name="e3mall-cart-interface" />
+        <module name="e3mall-cart-service" />
+        <module name="e3mall-cart-web" />
+        <module name="e3mall-common" />
+        <module name="e3mall-content-interface" />
+        <module name="e3mall-content-service" />
+        <module name="e3mall-dao" />
+        <module name="e3mall-interface" />
+        <module name="e3mall-item-web" />
+        <module name="e3mall-order-interface" />
+        <module name="e3mall-order-service" />
+        <module name="e3mall-order-web" />
+        <module name="e3mall-pojo" />
+        <module name="e3mall-service" />
+        <module name="e3mall-sso-web" />
+        <module name="e3mall-web" />
+        <module name="e3mallcommon" />
+        <module name="fastdfs_client" />
+        <module name="pagehelper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="e3-sso-web" target="1.7" />
+      <module name="e3mall-manager-web" target="1.8" />
+      <module name="e3mall-portal-web" target="1.8" />
+      <module name="e3mallcommon" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

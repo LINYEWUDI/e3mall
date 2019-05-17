@@ -2,8 +2,8 @@ package xyz.e3mall.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import xyz.e3mall.pojo.TbOrder;
-import xyz.e3mall.pojo.TbOrderExample;
+import xyz.e3mall.manager.pojo.TbOrder;
+import xyz.e3mall.manager.pojo.TbOrderExample;
 
 public interface TbOrderMapper {
     int countByExample(TbOrderExample example);

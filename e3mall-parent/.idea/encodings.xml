@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/.." charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3-sso-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-cart-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-cart/e3mall-cart-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-cart/e3mall-cart-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-content" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-content/e3mall-content-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-content/e3mall-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-item-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-manager/e3mall-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-manager/e3mall-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-manager/e3mall-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-manager/e3mall-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-order-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-order/e3mall-order-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-order/e3mall-order-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-sso-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-sso/e3-sso-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../e3mall-sso/e3-sso-service" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

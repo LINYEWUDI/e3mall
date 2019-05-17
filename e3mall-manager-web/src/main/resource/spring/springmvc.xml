@@ -9,38 +9,27 @@
         http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
-    <context:property-placeholder location="classpath:fastDFSconfig/fastDFS.properties" />
 
-    <!-- 扫描类上注解 -->
-    <context:component-scan base-package="xyz.e3mall.controller" />
+    <!-- 包自动扫描 -->
+    <context:component-scan base-package="xyz.e3mall.content.controller"></context:component-scan>
+
+    <!-- 加载配置文件 -->
+    <context:property-placeholder location="classpath:conf/*.properties"></context:property-placeholder>
+
 
     <!-- 注解驱动 -->
-    <mvc:annotation-driven />
-
-    <!-- 省略名字 -->
-    <bean
-            class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/" />
-        <property name="suffix" value=".jsp" />
-    </bean>
-
-    <!-- 向dubbo要服务 -->
-    <dubbo:application name="e3-manager-web"/>
-    <dubbo:registry protocol="zookeeper" address="192.168.25.128:2181"/>
-    <dubbo:reference interface="xyz.e3mall.ItemService" id="itemService" />
-    <dubbo:reference interface="xyz.e3mall.ItemCatService" id="itemCatServiceImpl" />
-    <dubbo:reference interface="xyz.e3mall.content.service.ContentCatListService" id="contentCatListService" />
-    <dubbo:reference interface="xyz.e3mall.content.service.ContentSerice" id="contentSerice" />
-
+    <mvc:annotation-driven></mvc:annotation-driven>
 
     <!-- 静态资源放行 -->
     <mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
     <mvc:resources location="/js/" mapping="/js/**"></mvc:resources>
 
-    <!-- 配置多媒体解析器,解析文件上传等多媒体文件 -->
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="defaultEncoding" value="UTF-8"></property>
-        <property name="maxUploadSize" value="5242880"></property>
-    </bean>
+    <!-- 向dubbo要服务 -->
+    <dubbo:application name="e3-manager-web"/>
+    <dubbo:registry protocol="zookeeper" address="192.168.25.128:2181"/>
+    <dubbo:reference interface="xyz.e3mall.manager.ItemService" id="itemService" />
+    <dubbo:reference interface="xyz.e3mall.manager.ItemCatService" id="itemCatService" />
+    <dubbo:reference interface="xyz.e3mall.content.service.ContentSerice" id="contentSerice" />
+    <dubbo:reference interface="xyz.e3mall.content.service.ContentCatListService" id="contentCatListService" />
 
 </beans>

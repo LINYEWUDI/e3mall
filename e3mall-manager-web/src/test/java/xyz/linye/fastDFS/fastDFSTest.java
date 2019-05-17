@@ -2,7 +2,7 @@ package xyz.linye.fastDFS;
 
 import org.csource.fastdfs.*;
 import org.junit.Test;
-import xyz.e3mall.utils.FastDFSClient;
+import xyz.e3mall.common.utils.FastDFSClient;
 
 
 public class fastDFSTest {

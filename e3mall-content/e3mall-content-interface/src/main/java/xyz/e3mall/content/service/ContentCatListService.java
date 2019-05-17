@@ -1,7 +1,7 @@
 package xyz.e3mall.content.service;
 
-import xyz.e3mall.domain.E3Result;
-import xyz.e3mall.domain.EasyUiItemCatVo;
+import xyz.e3mall.common.domain.E3Result;
+import xyz.e3mall.common.domain.EasyUiItemCatVo;
 
 import java.util.List;
 

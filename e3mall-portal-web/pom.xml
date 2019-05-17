@@ -24,7 +24,6 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>xyz.e3mall</groupId>
             <artifactId>e3mall-content-interface</artifactId>

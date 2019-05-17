@@ -2,8 +2,8 @@ package xyz.e3mall.mapper;
 
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
-import xyz.e3mall.pojo.TbUser;
-import xyz.e3mall.pojo.TbUserExample;
+import xyz.e3mall.manager.pojo.TbUser;
+import xyz.e3mall.manager.pojo.TbUserExample;
 
 public interface TbUserMapper {
     int countByExample(TbUserExample example);

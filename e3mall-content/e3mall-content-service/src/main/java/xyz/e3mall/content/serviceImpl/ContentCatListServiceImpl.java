@@ -3,11 +3,11 @@ package xyz.e3mall.content.serviceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import xyz.e3mall.content.service.ContentCatListService;
-import xyz.e3mall.domain.E3Result;
-import xyz.e3mall.domain.EasyUiItemCatVo;
+import xyz.e3mall.common.domain.E3Result;
+import xyz.e3mall.common.domain.EasyUiItemCatVo;
 import xyz.e3mall.mapper.TbContentCategoryMapper;
-import xyz.e3mall.pojo.TbContentCategory;
-import xyz.e3mall.pojo.TbContentCategoryExample;
+import xyz.e3mall.manager.pojo.TbContentCategory;
+import xyz.e3mall.manager.pojo.TbContentCategoryExample;
 
 import java.util.ArrayList;
 import java.util.Date;
